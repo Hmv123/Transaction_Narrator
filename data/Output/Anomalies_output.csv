@@ -1,0 +1,21 @@
+transaction_id,account_id,transaction_date,amount,merchant,city,country,channel,historical_avg,historical_frequency,home_country,tag,reason_codes
+T0001,A10001,2025-08-12 02:15:00,9800.0,Global Electronics,Hong Kong,Hong Kong,Online,300,2,US,Anomalous,FOREIGN;HIGH_VALUE;ODD_HOURS
+T0002,A10002,2025-08-12 14:22:00,45.6,Corner Store,Springfield,US,POS,50,3,US,Normal,Non Suspecious
+T0003,A10003,2025-08-11 23:05:00,12.0,ATM Withdrawal,New York,US,ATM,100,1,US,Normal,Non Suspecious
+T0004,A10001,2025-08-12 02:17:00,1200.0,Cloud Services,Hong Kong,Hong Kong,Online,300,2,US,Anomalous,FOREIGN;ODD_HOURS
+T0005,A10004,2025-08-13 03:30:00,75.0,Streaming Co,Seattle,US,Online,60,1,US,Anomalous,ODD_HOURS
+T0006,A20001,2025-09-01 13:01:00,25.0,Cafe Goodbean,Boston,US,POS,30,5,US,Anomalous,VELOCITY
+T0007,A20001,2025-09-01 13:05:00,18.0,Cafe Goodbean,Boston,US,POS,30,5,US,Anomalous,VELOCITY
+T0008,A20001,2025-09-01 13:07:00,22.0,Online Grocery,Boston,US,Online,30,5,US,Anomalous,VELOCITY
+T0009,A20001,2025-09-01 13:09:00,19.0,Coffee Express,Boston,US,POS,30,5,US,Anomalous,VELOCITY
+T0010,A30001,2025-08-20 10:00:00,6000.0,Auto Dealer,Chicago,US,Wire,2000,1,US,Anomalous,HIGH_VALUE
+T0011,A40001,2025-08-21 15:00:00,2000.0,Jewelry Outlet,Los Angeles,US,POS,300,2,US,Anomalous,HIGH_VALUE
+T0012,A10005,2025-08-22 11:12:00,5.5,Newsstand,Philadelphia,US,POS,7,10,US,Normal,Non Suspecious
+T0013,A50001,2025-08-22 09:00:00,120.0,Clothing Store,London,UK,POS,80,2,US,Anomalous,FOREIGN
+T0014,A60001,2025-08-23 01:30:00,7000.0,Overseas Auto,Delhi,India,Wire,150,1,US,Anomalous,FOREIGN;HIGH_VALUE;ODD_HOURS
+T0015,A70001,2025-08-24 16:45:00,320.0,Supermarket,Miami,US,POS,300,4,US,Normal,Non Suspecious
+T0016,A80001,2025-08-25 08:10:00,2600.0,Home Improvement,Dallas,US,POS,400,2,US,Anomalous,HIGH_VALUE
+T0017,A90001,2025-08-26 02:05:00,15.0,Coin Laundry,Columbus,US,POS,12,1,US,Anomalous,ODD_HOURS
+T0018,A10009,2025-08-27 20:30:00,350.0,Tech Retail,Singapore,Singapore,Online,120,3,SG,Anomalous,FOREIGN
+T0019,A11001,2025-08-28 04:20:00,480.0,Gas Station,Denver,US,POS,220,2,US,Anomalous,ODD_HOURS
+T0020,A12001,2025-08-29 12:00:00,5000.0,Art Dealer,San Francisco,US,Wire,1000,1,US,Normal,Non Suspecious

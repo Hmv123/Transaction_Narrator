@@ -1,0 +1,21 @@
+transaction_d,account_id,transaction_date,amount,merchant,city,country,channel,historical_avg,historical_frequency,home_country
+T0001,A10001,12-08-2025 02:15,9800,Global Electronics,Hong Kong,Hong Kong,Online,300,2,US
+T0002,A10002,12-08-2025 14:22,45.6,Corner Store,Springfield,US,POS,50,3,US
+T0003,A10003,11-08-2025 23:05,12,ATM Withdrawal,New York,US,ATM,100,1,US
+T0004,A10001,12-08-2025 02:17,1200,Cloud Services,Hong Kong,Hong Kong,Online,300,2,US
+T0005,A10004,13-08-2025 03:30,75,Streaming Co,Seattle,US,Online,60,1,US
+T0006,A20001,01-09-2025 13:01,25,Cafe Goodbean,Boston,US,POS,30,5,US
+T0007,A20001,01-09-2025 13:05,18,Cafe Goodbean,Boston,US,POS,30,5,US
+T0008,A20001,01-09-2025 13:07,22,Online Grocery,Boston,US,Online,30,5,US
+T0009,A20001,01-09-2025 13:09,19,Coffee Express,Boston,US,POS,30,5,US
+T0010,A30001,20-08-2025 10:00,6000,Auto Dealer,Chicago,US,Wire,2000,1,US
+T0011,A40001,21-08-2025 15:00,2000,Jewelry Outlet,Los Angeles,US,POS,300,2,US
+T0012,A10005,22-08-2025 11:12,5.5,Newsstand,Philadelphia,US,POS,7,10,US
+T0013,A50001,22-08-2025 09:00,120,Clothing Store,London,UK,POS,80,2,US
+T0014,A60001,23-08-2025 01:30,7000,Overseas Auto,Delhi,India,Wire,150,1,US
+T0015,A70001,24-08-2025 16:45,320,Supermarket,Miami,US,POS,300,4,US
+T0016,A80001,25-08-2025 08:10,2600,Home Improvement,Dallas,US,POS,400,2,US
+T0017,A90001,26-08-2025 02:05,15,Coin Laundry,Columbus,US,POS,12,1,US
+T0018,A10009,27-08-2025 20:30,350,Tech Retail,Singapore,Singapore,Online,120,3,SG
+T0019,A11001,28-08-2025 04:20,480,Gas Station,Denver,US,POS,220,2,US
+T0020,A12001,29-08-2025 12:00,5000,Art Dealer,San Francisco,US,Wire,1000,1,US
