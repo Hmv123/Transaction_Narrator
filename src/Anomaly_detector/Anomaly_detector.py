@@ -20,6 +20,7 @@ def detect_velocity(df):
     
     for acct_id, group in df_sorted.groupby("account_id"):
         times = group["transaction_date"].tolist() #converting to a list for comparison
+        #times = pd.to_datetime(group["transaction_date"]).tolist()
         txn_ids = group["transaction_id"].tolist()
         
         for i in range(len(times)):
@@ -58,8 +59,9 @@ def detect_odd_hours(df):
 # ---------- MAIN FUNCTION ----------
 
 def detect_anomalies(input_path, output_path):
-    df = pd.read_csv(input_path, parse_dates=["transaction_date"])
-    
+    #df = pd.read_csv(input_path, parse_dates=["transaction_date"],errors="coerce", infer_datetime_format=True)
+    df = pd.read_csv(input_path)  # No errors or infer_datetime_format here
+    df["transaction_date"] = pd.to_datetime(df["transaction_date"], errors="coerce", infer_datetime_format=True)
     all_anomalies = []
     
     all_anomalies.extend(detect_high_value(df))

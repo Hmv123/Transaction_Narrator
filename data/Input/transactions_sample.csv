@@ -1,4 +1,4 @@
-transaction_d,account_id,transaction_date,amount,merchant,city,country,channel,historical_avg,historical_frequency,home_country
+transaction_id,account_id,transaction_date,amount,merchant,city,country,channel,historical_avg,historical_frequency,home_country
 T0001,A10001,12-08-2025 02:15,9800,Global Electronics,Hong Kong,Hong Kong,Online,300,2,US
 T0002,A10002,12-08-2025 14:22,45.6,Corner Store,Springfield,US,POS,50,3,US
 T0003,A10003,11-08-2025 23:05,12,ATM Withdrawal,New York,US,ATM,100,1,US
