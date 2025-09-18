@@ -33,7 +33,7 @@ left_col, right_col = st.columns([2, 1])  # Wider left, narrower right
 
 # ---------- LOG AREA ON RIGHT ----------
 with right_col:
-    st.subheader("Process Logs")
+    st.subheader("Workflow Status")
     with st.expander("Show Logs", expanded=True):
         log_box = st.empty()
 
@@ -43,8 +43,8 @@ with right_col:
 
 # ---------- MAIN WORKFLOW ON LEFT ----------
 with left_col:
-    st.subheader("Run the Schema Validation")
-    if st.button("Schema Validation"):
+    st.subheader("File Validation")
+    if st.button("Validation:▶️"):
         if "uploaded_file_path" in st.session_state:
             input_path = st.session_state["uploaded_file_path"]
             buffer = io.StringIO()
@@ -54,8 +54,8 @@ with left_col:
         else:
             st.error("Please upload a file before running schema validation.")
 
-    st.subheader("Run the Anomaly Detection")
-    if st.button("Anomaly Detection"):
+    st.subheader("Anomaly Report")
+    if st.button("Anomaly Report:▶️"):
         if "uploaded_file_path" in st.session_state:
             input_path = st.session_state["uploaded_file_path"]
             output_path = os.path.join(OUTPUT_DIR, "anomalies_output.csv")
@@ -76,8 +76,8 @@ with left_col:
         else:
             st.error("Please upload a file before running anomaly detection.")
 
-    st.subheader("Run the Transaction Narrator")
-    if st.button("Transaction Narrator"):
+    st.subheader("Transaction Narrator")
+    if st.button("Narrator:▶️"):
         if "anomalies_output_path" in st.session_state:
             input_path = st.session_state["anomalies_output_path"]
             output_path = os.path.join(OUTPUT_DIR, "anomalies_with_narratives.csv")
