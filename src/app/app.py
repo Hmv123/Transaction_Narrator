@@ -6,7 +6,7 @@ import streamlit as st
 
 from src.input_check.Input_validation import schema_validation
 from src.Anomaly_detector.Anomaly_detector import detect_anomalies
-from src.Narrator.Narrative_generator import generate_narratives
+from src.Narrator.Narrative_generator_4 import generate_narratives
 
 # ---------- CONFIG ----------
 INPUT_DIR = "data/Input"
